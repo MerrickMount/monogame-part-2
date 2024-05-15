@@ -60,7 +60,7 @@ namespace monogame_part_2
             _spriteBatch.Draw(rectangleTexture, new Rectangle(100, 100, 1000, 500), Color.Black);
             _spriteBatch.Draw(circleTexture, new Rectangle(850, 300, 10, 60), Color.White);
             _spriteBatch.Draw(rectangleTexture, new Rectangle(550, 295, 300, 10), Color.White);
-            _spriteBatch.DrawString(font, "TEST", new Vector2(100, 100), Color.Blue);
+            _spriteBatch.DrawString(font, "Chalkboard with Chalk on it", new Vector2(10, 10), Color.Black);
             _spriteBatch.End();
             // TODO: Add your drawing code here
 
