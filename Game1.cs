@@ -63,7 +63,7 @@ namespace monogame_part_2
             _spriteBatch.DrawString(font, "Chalkboard with Chalk on it", new Vector2(10, 10), Color.Black);
             _spriteBatch.End();
             // TODO: Add your drawing code here
-
+             
             base.Draw(gameTime);
         }
     }
